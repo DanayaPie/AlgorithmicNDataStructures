@@ -12,16 +12,16 @@ public class BubbleSortRecursive {
 
     }
 
-    private static int[] sortedArr(int[] arr, int n) {
+    private static int[] sortedArr(int[] arr, int length) {
 
         int count = 0;
         int temp = 0;
 
-        if (n == 1) {
+        if (length == 1) {
             return arr;
         }
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < length; i++) {
             if (arr[i - 1] > arr[i]) {
                 temp = arr[i - 1];
                 arr[i - 1] = arr[i];
@@ -35,7 +35,7 @@ public class BubbleSortRecursive {
             return arr;
         }
 
-        sortedArr(arr, n - 1);
+        sortedArr(arr, length - 1);
         return arr;
     }
 
