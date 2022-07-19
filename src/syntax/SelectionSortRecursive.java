@@ -18,7 +18,8 @@ public class SelectionSortRecursive {
             return arr;
         }
 
-        // get index of smallest element
+        // get index of smallest element - recursive minIndex
+        // **can use iteration instead
         int k = minIndex(arr, length - 1, index);
 
         // swap current index to the index of smallest element
