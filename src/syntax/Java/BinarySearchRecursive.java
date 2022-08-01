@@ -1,4 +1,4 @@
-package syntax;
+package syntax.Java;
 
 public class BinarySearchRecursive {
     public static void main(String[] args) {

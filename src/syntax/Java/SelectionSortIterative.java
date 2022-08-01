@@ -1,4 +1,4 @@
-package syntax;
+package syntax.Java;
 
 public class SelectionSortIterative {
 
