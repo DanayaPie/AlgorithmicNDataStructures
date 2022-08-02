@@ -17,10 +17,6 @@ public class InsertionSortIterative {
             int key = arr[i]; // current
             int j = i - 1; // last value in sorted subset
 
-            System.out.println("key: " + key);
-            System.out.println("i: " + i);
-            System.out.println("j: " + j);
-
             // if last val in sorted subset > current, continue to replace the val at current
             while (j >= 0 && arr[j] > key) {
                 arr[j + 1] = arr[j];
