@@ -4,10 +4,11 @@ public class main {
 
     public static void main(String[] args) {
 
-        LinkedList linkedList = new LinkedList();
+        SinglyLinkedList linkedList = new SinglyLinkedList();
 
         linkedList.append(0);
-        linkedList.append(5);
+        linkedList.push(5);
+        linkedList.insertAfter(0, 3);
         linkedList.deleteWithValue(0);
 
         linkedList.printList();

@@ -1,11 +1,11 @@
 package syntax.Java.DataStructure.SinglyLinkedListImplementation;
 
-public class Node {
+public class SinglyLinkedListNode {
 
     int data;
-    Node next;
+    SinglyLinkedListNode next;
 
-    public Node(int data) {
+    public SinglyLinkedListNode(int data) {
         this.data = data;
         this.next = null;
     }

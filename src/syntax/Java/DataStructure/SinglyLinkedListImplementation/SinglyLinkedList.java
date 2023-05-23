@@ -1,20 +1,20 @@
 package syntax.Java.DataStructure.SinglyLinkedListImplementation;
 
-public class LinkedList {
+public class SinglyLinkedList {
 
-    Node head = null;
+    SinglyLinkedListNode head = null;
 
     public void push(int data) {
 
-        Node newHead = new Node(data);
+        SinglyLinkedListNode newHead = new SinglyLinkedListNode(data);
         newHead.next = head;
         head = newHead;
     }
 
     public void insertAfter(int previousData, int data) {
 
-        Node currentNode = head;
-        Node newNode = new Node((data));
+        SinglyLinkedListNode currentNode = head;
+        SinglyLinkedListNode newNode = new SinglyLinkedListNode((data));
 
         if (currentNode.data != previousData) {
             currentNode = currentNode.next;
@@ -26,27 +26,27 @@ public class LinkedList {
 
     public void append(int data) {
 
-        Node currentNode = head;
-
         // if linked list is empty
         if (head == null) {
-            head = new Node(data);
+            head = new SinglyLinkedListNode(data);
             return;
         }
+
+        SinglyLinkedListNode currentNode = head;
 
         while (currentNode.next != null) {
             currentNode = currentNode.next;
         }
-        currentNode.next = new Node(data);
+        currentNode.next = new SinglyLinkedListNode(data);
     }
 
     public void deleteWithValue(int data) {
 
-        Node currentNode = head;
-
         if (head == null) {
             return;
         }
+
+        SinglyLinkedListNode currentNode = head;
 
         // if head data is the one to delete
         if (head.data == data) {
@@ -68,7 +68,7 @@ public class LinkedList {
 
     public void printList() {
 
-        Node headNode = head;
+        SinglyLinkedListNode headNode = head;
 
         while (headNode != null) {
             System.out.println(headNode.data);
