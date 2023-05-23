@@ -1,4 +1,4 @@
-package syntax.Java;
+package syntax.Java.Algorithm;
 
 public class BubbleSortRecursive {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package syntax.Java;
+package syntax.Java.Algorithm;
 
 public class SelectionSortRecursive {
     public static void main(String[] args) {

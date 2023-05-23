@@ -1,4 +1,4 @@
-package syntax.Java;
+package syntax.Java.Algorithm;
 
 public class InsertionSortIterative {
     public static void main(String[] args) {
