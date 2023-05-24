@@ -1,4 +1,4 @@
-package syntax.Java.DataStructure.SinglyLinkedListImplementation;
+package syntax.Java.DataStructure.LinkedList.SinglyLinkedListImplementation;
 
 public class SinglyLinkedList {
 

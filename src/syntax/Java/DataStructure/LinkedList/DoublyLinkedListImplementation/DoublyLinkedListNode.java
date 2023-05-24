@@ -1,4 +1,4 @@
-package syntax.Java.DataStructure.DoublyLinkedListImplementation;
+package syntax.Java.DataStructure.LinkedList.DoublyLinkedListImplementation;
 
 public class DoublyLinkedListNode {
 
