@@ -1,4 +1,4 @@
-package syntax.Java.DataStructure.BinaryTree.BST;
+package syntax.Java.DataStructure.Tree;
 
 public class BinarySearchTree {
 
