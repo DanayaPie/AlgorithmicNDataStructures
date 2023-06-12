@@ -39,7 +39,7 @@ public class DoublyLinkedList {
 
         // next node cannot be null
         if (nextNode == null) {
-            System.out.println("Given next node canot be null");
+            System.out.println("Given next node cannot be null");
             return;
         }
 
