@@ -1,4 +1,4 @@
-package syntax.Java.Algorithm;
+package syntax.Java.Algorithm.Sorting;
 
 public class BubbleSortIterative {
     public static void main(String[] args) {
