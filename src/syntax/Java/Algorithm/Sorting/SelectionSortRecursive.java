@@ -1,21 +1,22 @@
 package syntax.Java.Algorithm.Sorting;
 
+import java.util.Arrays;
+
 public class SelectionSortRecursive {
     public static void main(String[] args) {
         int[] arr = {-8, 13, -14, 1};
 
-        arr = (selectionSort(arr, arr.length, 0));
+        selectionSort(arr, arr.length, 0);
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
-        }
+        System.out.println(Arrays.toString(arr));
+
     }
 
-    private static int[] selectionSort(int[] arr, int length, int index) {
+    private static void selectionSort(int[] arr, int length, int index) {
         int temp = 0;
 
         if (index == length) {
-            return arr;
+            return;
         }
 
         // get index of smallest element - recursive minIndex
@@ -30,7 +31,6 @@ public class SelectionSortRecursive {
         }
 
         selectionSort(arr, length, index + 1);
-        return arr;
     }
 
     // fibonacci sequence (recursive minIndex)
